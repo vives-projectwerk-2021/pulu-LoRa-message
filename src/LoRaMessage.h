@@ -19,7 +19,7 @@ namespace Pulu {
             LoRaMessage& setBatteryStatus(uint8_t value);
 
             uint8_t* message();
-            uint8_t size();
+            uint8_t length();
         
         private:
             uint8_t* buffer;

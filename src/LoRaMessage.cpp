@@ -58,7 +58,7 @@ namespace Pulu {
         return buffer;
     }
 
-    uint8_t LoRaMessage::size() {
+    uint8_t LoRaMessage::length() {
         return size;
     }
 };
